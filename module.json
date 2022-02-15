@@ -1,0 +1,18 @@
+{
+	"disableAutoUpdate": false,
+	"name": "frost-flower-death-tear-utils",
+	"author": "Snug",
+	"description": "Uses Minor Hp/Mp Potions to Display Cooldowns of Frost Flower Death/Tear & Optionally Hide Their Effects",
+	"version": "1",
+	"donationUrl": "https://play.google.com/store/apps/details?id=com.CarvedGames.SD",
+	"options": {
+		"guiName": "frost-flower-death-tear-utils",
+		"niceName": "ffdtu",
+		"settingsVersion": 1,
+		"settingsFile": "config.json",
+		"settingsMigrator": "config_generator.js"
+	},
+	"servers": [
+		"https://raw.githubusercontent.com/Snugglez/frost-flower-death-tear-utils/main/"
+	]
+}
