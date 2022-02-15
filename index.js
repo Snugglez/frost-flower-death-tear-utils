@@ -21,7 +21,12 @@ module.exports = function reee(d) {
 
     d.hook('S_ABNORMALITY_BEGIN', '*', (e) => {
         if (!d.settings.enabled || !d.settings.hide) return
-        if (d.settings.hide && e.id >= 19171 && e.id <= 19174) return false
+        if (e.id >= 19171 && e.id <= 19174 || e.id >= 19180 && e.id <= 19189) return false
+    })
+
+    d.hook('S_PARTY_MEMBER_ABNORMAL_ADD', '*', (e) => {
+        if (!d.settings.enabled || !d.settings.hide) return
+        if (e.id >= 19171 && e.id <= 19174 || e.id >= 19180 && e.id <= 19189) return false
     })
 
     d.hook('S_EACH_SKILL_RESULT', '*', (e) => {

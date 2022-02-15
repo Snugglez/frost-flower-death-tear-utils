@@ -1,6 +1,6 @@
-# frost-flower-death-tear-utils
+# frost-flower-dream-tear-utils
 
-Tera Toolbox Module That Uses Minor Hp/Mp Potions to Display Cooldowns of Frost Flower Death/Tear & Optionally Hide Their Effects
+Tera Toolbox Module That Uses Minor Hp/Mp Potions to Display Cooldowns of Frost Flower Drean/Tear & Optionally Hide Their Effects
 
 ![](https://cdn.discordapp.com/attachments/803409013832155177/943134214293979176/unknown.png)
 

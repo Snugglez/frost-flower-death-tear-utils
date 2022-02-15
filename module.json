@@ -1,8 +1,8 @@
 {
 	"disableAutoUpdate": false,
-	"name": "frost-flower-death-tear-utils",
+	"name": "frost-flower-dream-tear-utils",
 	"author": "Snug",
-	"description": "Uses Minor Hp/Mp Potions to Display Cooldowns of Frost Flower Death/Tear & Optionally Hide Their Effects",
+	"description": "Uses Minor Hp/Mp Potions to Display Cooldowns of Frost Flower Dream/Tear & Optionally Hide Their Effects",
 	"version": "1",
 	"donationUrl": "https://play.google.com/store/apps/details?id=com.CarvedGames.SD",
 	"options": {
@@ -13,6 +13,6 @@
 		"settingsMigrator": "config_generator.js"
 	},
 	"servers": [
-		"https://raw.githubusercontent.com/Snugglez/frost-flower-death-tear-utils/main/"
+		"https://raw.githubusercontent.com/Snugglez/frost-flower-dream-tear-utils/main/"
 	]
 }
