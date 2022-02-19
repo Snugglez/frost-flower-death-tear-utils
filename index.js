@@ -30,12 +30,14 @@ module.exports = function reee(d) {
     })
 
     d.hook('S_EACH_SKILL_RESULT', '*', (e) => {
-        if (!d.settings.enabled) return
-        if ([99930001, 99930002, 99930003].includes(e.skill.id)) setitemcd(6550, dreamcd)
-        if (e.skill.id == 99930000) setitemcd(6560, tearcd)
-        if (!d.settings.hide) return
-        if (e.skill.id >= 99930000 && e.skill.id <= 99930003) return false
-        if (e.skill.id >= 3000 && e.skill.id <= 3005) return false
+        if (d.settings.enabled && d.game.me.is(e.source)) {
+            if ([99930001, 99930002, 99930003].includes(e.skill.id)) setitemcd(6550, dreamcd)
+            if (e.skill.id == 99930000) setitemcd(6560, tearcd)
+        }
+        if (d.settings.hide) {
+            if (e.skill.id >= 99930000 && e.skill.id <= 99930003) return false
+            if (e.skill.id >= 3000 && e.skill.id <= 3005) return false
+        }
     })
 
     d.hook('S_ACTION_STAGE', '*', (e) => {
